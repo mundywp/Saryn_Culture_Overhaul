@@ -70,7 +70,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Harmony_Patches\LordConversationsCampaignBehavior\" />
+    <Folder Include="Harmony_Patches\LordConversationsCampaignBehavior_Patches\" />
     <Folder Include="_Module\ModuleData\XSLT\ImperialCultures\" />
   </ItemGroup>
 

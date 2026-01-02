@@ -20,16 +20,10 @@ namespace Saryn_Culture_Overhaul
             InformationManager.DisplayMessage(new InformationMessage("SortCultureList called"));
             listToWorkOn.Sort(new NameTextComparer());
 
-            foreach (KeyValuePair<string, SpriteCategory> sploadingCategory in UIResourceManager.SpriteData.SpriteCategories)
+            SpriteCategory spLoadingCategory = UIResourceManager.SpriteData.SpriteCategories["ui_charactercreation_vanilla"];
+            foreach (SpritePart spritePart in spLoadingCategory.SpriteParts)
             {
-
-                foreach (SpritePart spritePart in sploadingCategory.Value.SpriteParts)
-                {
-                    if (spritePart.Name.Contains("empire") || spritePart.Name.Contains("Empire"))
-                    {
-                        InformationManager.DisplayMessage(new InformationMessage(spritePart.Name));
-                    }
-                }
+                InformationManager.DisplayMessage(new InformationMessage(spritePart.Name));
             }
             return false;
         }

@@ -5,7 +5,8 @@
 <SpriteData>
 	<SpriteCategories>
 		<SpriteCategory>
-			<Name>ui_charactercreation</Name>
+			<Name>ui_charactercreation_vanilla</Name>
+			<AlwaysLoad />
 			<SpriteSheetCount>1</SpriteSheetCount>
 			<SpriteSheetSize ID="1" Width="4096" Height="4096" />
 		</SpriteCategory>
@@ -20,6 +21,42 @@
 			<SheetY>3540</SheetY>
 			<CategoryName>ui_charactercreation_vanilla</CategoryName>
 		</SpritePart>
+		<SpritePart>
+			<SheetID>2</SheetID>
+			<Name>CharacterCreation\Culture\empire2_1</Name>
+			<Width>952</Width>
+			<Height>876</Height>
+			<SheetX>4</SheetX>
+			<SheetY>2656</SheetY>
+			<CategoryName>ui_charactercreation_vanilla</CategoryName>
+		</SpritePart>
+		<SpritePart>
+			<SheetID>2</SheetID>
+			<Name>CharacterCreation\Culture\empire2_2</Name>
+			<Width>952</Width>
+			<Height>876</Height>
+			<SheetX>964</SheetX>
+			<SheetY>4</SheetY>
+			<CategoryName>ui_charactercreation_vanilla</CategoryName>
+		</SpritePart>
+		<SpritePart>
+			<SheetID>2</SheetID>
+			<Name>CharacterCreation\Culture\empire2_3</Name>
+			<Width>952</Width>
+			<Height>876</Height>
+			<SheetX>4</SheetX>
+			<SheetY>4</SheetY>
+			<CategoryName>ui_charactercreation_vanilla</CategoryName>
+		</SpritePart>
+		<SpritePart>
+			<SheetID>1</SheetID>
+			<Name>CharacterCreation\Culture\empire2_4</Name>
+			<Width>952</Width>
+			<Height>876</Height>
+			<SheetX>4</SheetX>
+			<SheetY>4</SheetY>
+			<CategoryName>ui_charactercreation_vanilla</CategoryName>
+		</SpritePart>
 	</spriteParts>
 	<Sprites>
 		<GenericSprite>
@@ -28,19 +65,19 @@
 		</GenericSprite>
 		<GenericSprite>
 			<Name>CharacterCreation\Culture\empire2_1</Name>
-			<SpritePartName>CharacterCreation\Culture\empire_1</SpritePartName>
+			<SpritePartName>CharacterCreation\Culture\empire2_1</SpritePartName>
 		</GenericSprite>
 		<GenericSprite>
 			<Name>CharacterCreation\Culture\empire2_2</Name>
-			<SpritePartName>CharacterCreation\Culture\empire_2</SpritePartName>
+			<SpritePartName>CharacterCreation\Culture\empire2_2</SpritePartName>
 		</GenericSprite>
 		<GenericSprite>
 			<Name>CharacterCreation\Culture\empire2_3</Name>
-			<SpritePartName>CharacterCreation\Culture\empire_3</SpritePartName>
+			<SpritePartName>CharacterCreation\Culture\empire2_3</SpritePartName>
 		</GenericSprite>
 		<GenericSprite>
 			<Name>CharacterCreation\Culture\empire2_4</Name>
-			<SpritePartName>CharacterCreation\Culture\empire_4</SpritePartName>
+			<SpritePartName>CharacterCreation\Culture\empire2_4</SpritePartName>
 		</GenericSprite>
 	</Sprites>
 </SpriteData>
