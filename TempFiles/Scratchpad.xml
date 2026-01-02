@@ -1,0 +1,140 @@
+﻿<SpriteCategories>
+	<SpriteCategory>
+		<Name>ui_charactercreation_vanilla</Name>
+		<SpriteSheetCount>1</SpriteSheetCount>
+		<SpriteSheetSize ID="1" Width="4096" Height="4096" />
+		<AlwaysLoad/>
+	</SpriteCategory>
+</SpriteCategories>
+<!-- Aserai 2 - Sarranai -->
+<SpriteParts>
+	<SpritePart>
+		<SheetID>1</SheetID>
+		<Name>CharacterCreation\Culture\aserai2</Name>
+		<Width>541</Width>
+		<Height>94</Height>
+		<SheetX>4</SheetX>
+		<SheetY>3642</SheetY>
+		<CategoryName>ui_charactercreation_vanilla</CategoryName>
+	</SpritePart>
+	<!-- Aserai 3 - Nahasawi -->
+	<SpritePart>
+		<SheetID>1</SheetID>
+		<Name>CharacterCreation\Culture\aserai3</Name>
+		<Width>541</Width>
+		<Height>94</Height>
+		<SheetX>4</SheetX>
+		<SheetY>3642</SheetY>
+		<CategoryName>ui_charactercreation_vanilla</CategoryName>
+	</SpritePart>
+	<!-- Battania 2 - Argadian -->
+	<SpritePart>
+		<SheetID>1</SheetID>
+		<Name>CharacterCreation\Culture\battania2</Name>
+		<Width>541</Width>
+		<Height>94</Height>
+		<SheetX>1102</SheetX>
+		<SheetY>3540</SheetY>
+		<CategoryName>ui_charactercreation_vanilla</CategoryName>
+	</SpritePart>
+	<!-- Empire 2 - Rhotic -->
+	<SpritePart>
+		<SheetID>11</SheetID>
+		<Name>CharacterCreation\Culture\empire2</Name>
+		<Width>541</Width>
+		<Height>94</Height>
+		<SheetX>553</SheetX>
+		<SheetY>3540</SheetY>
+		<CategoryName>ui_charactercreation_vanilla</CategoryName>
+	</SpritePart>
+	<!-- Empire 3 - Battanic -->
+	<SpritePart>
+		<SheetID>11</SheetID>
+		<Name>CharacterCreation\Culture\empire3</Name>
+		<Width>541</Width>
+		<Height>94</Height>
+		<SheetX>553</SheetX>
+		<SheetY>3540</SheetY>
+		<CategoryName>ui_charactercreation_vanilla</CategoryName>
+	</SpritePart>
+	<!-- Empire 4 - Dryatic -->
+	<SpritePart>
+		<SheetID>1</SheetID>
+		<Name>CharacterCreation\Culture\empire4</Name>
+		<Width>541</Width>
+		<Height>94</Height>
+		<SheetX>553</SheetX>
+		<SheetY>3540</SheetY>
+		<CategoryName>ui_charactercreation_vanilla</CategoryName>
+	</SpritePart>
+	<!-- Empire 5 - Tanaesiatic -->
+	<SpritePart>
+		<SheetID>1</SheetID>
+		<Name>CharacterCreation\Culture\empire5</Name>
+		<Width>541</Width>
+		<Height>94</Height>
+		<SheetX>553</SheetX>
+		<SheetY>3540</SheetY>
+		<CategoryName>ui_charactercreation_vanilla</CategoryName>
+	</SpritePart>
+	<!-- Empire 6 - Calseadic -->
+	<SpritePart>
+		<SheetID>1</SheetID>
+		<Name>CharacterCreation\Culture\empire6</Name>
+		<Width>541</Width>
+		<Height>94</Height>
+		<SheetX>553</SheetX>
+		<SheetY>3540</SheetY>
+		<CategoryName>ui_charactercreation_vanilla</CategoryName>
+	</SpritePart>
+	<!-- Khuzait 2 - Khergit -->
+	<SpritePart>
+		<SheetID>1</SheetID>
+		<Name>CharacterCreation\Culture\khuzait2</Name>
+		<Width>541</Width>
+		<Height>94</Height>
+		<SheetX>3298</SheetX>
+		<SheetY>3540</SheetY>
+		<CategoryName>ui_charactercreation_vanilla</CategoryName>
+	</SpritePart>
+	<!-- Khuzait 3 - Iltanar -->
+	<SpritePart>
+		<SheetID>1</SheetID>
+		<Name>CharacterCreation\Culture\khuzait3</Name>
+		<Width>541</Width>
+		<Height>94</Height>
+		<SheetX>3298</SheetX>
+		<SheetY>3540</SheetY>
+		<CategoryName>ui_charactercreation_vanilla</CategoryName>
+	</SpritePart>
+	<!-- Nord 2 - Jumnelander -->
+	<SpritePart>
+		<SheetID>1</SheetID>
+		<Name>CharacterCreation\Culture\nord2</Name>
+		<Width>541</Width>
+		<Height>94</Height>
+		<SheetX>2200</SheetX>
+		<SheetY>3540</SheetY>
+		<CategoryName>ui_charactercreation_vanilla</CategoryName>
+	</SpritePart>
+	<!-- Sturgia 2 - Vagir -->
+	<SpritePart>
+		<SheetID>1</SheetID>
+		<Name>CharacterCreation\Culture\sturgia2</Name>
+		<Width>541</Width>
+		<Height>94</Height>
+		<SheetX>1651</SheetX>
+		<SheetY>3540</SheetY>
+		<CategoryName>ui_charactercreation_vanilla</CategoryName>
+	</SpritePart>
+	<!-- Vlandia 2 - Rhodok -->
+	<SpritePart>
+		<SheetID>1</SheetID>
+		<Name>CharacterCreation\Culture\vlandia2</Name>
+		<Width>541</Width>
+		<Height>94</Height>
+		<SheetX>4</SheetX>
+		<SheetY>3540</SheetY>
+		<CategoryName>ui_charactercreation_vanilla</CategoryName>
+	</SpritePart>
+</SpriteParts>

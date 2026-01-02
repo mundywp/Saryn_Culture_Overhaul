@@ -1,0 +1,849 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SPCultures>
+	<Culture
+		id="empire2"
+		name="Rhotic"
+		is_main_culture="true"
+		color="0xff793191"
+		color2="0xffFCDE90"
+		elite_basic_troop="NPCCharacter.imperial_vigla_recruit"
+		basic_troop="NPCCharacter.imperial_recruit"
+		melee_militia_troop="NPCCharacter.imperial_militia_spearman"
+		ranged_militia_troop="NPCCharacter.imperial_militia_archer"
+		melee_elite_militia_troop="NPCCharacter.imperial_militia_veteran_spearman"
+		ranged_elite_militia_troop="NPCCharacter.imperial_militia_veteran_archer"
+		can_have_settlement="true"
+		villager_party_template="PartyTemplate.villager_empire_template"
+		default_party_template="PartyTemplate.kingdom_hero_party_empire_template"
+		settlement_patrol_template_level_1="PartyTemplate.patrol_party_empire_template_level_1"
+		settlement_patrol_template_level_2="PartyTemplate.patrol_party_empire_template_level_2"
+		settlement_patrol_template_level_3="PartyTemplate.patrol_party_empire_template_level_3"
+		militia_party_template="PartyTemplate.militia_empire_template"
+		rebels_party_template="PartyTemplate.rebels_empire_template"
+		vassal_reward_party_template="PartyTemplate.vassal_reward_troops_empire"
+		prosperity_bonus="1"
+		encounter_background_mesh="encounter_empire"
+		faction_banner_key="11.4.123.4345.4345.764.764.1.0.0.163.0.5.512.512.764.764.1.0.0"
+		text="{=X0kKBzsW}The Calradians are the people of the Empire, though by now they have given their name to the entire continent which they dominate. A thousand years ago, they were an undistinguished tribe living in the hill country between the southern sea and the Battanian woods. One tradition set them apart from their neighbors - the Calradoi had no kings. Their citizenry has always taken an intense interest in the art of self-government, the balance between protecting the liberty of individuals and the needs of the state. Perhaps this is why they had a slight edge in the endless wars between one town and another, keeping armies in the field just a little longer, bouncing back just a little more quickly from a defeat. Some of their neighbors federated with them; others were overrun. Eventually the Calradians formed an empire, which evolved into a monarchy in all but name. Their leaders are no longer distinguished civic elders but great landholders scattered across the continent; the striking force of their armies is no longer citizen-infantry but heavily armored cataphracts in the retinues of the wealthy. But they still take their civic traditions very seriously, believing that the Calradian ideal can unite a continent in peace, if only the ”barbarians” beyond their borders would agree to submit to it."
+		tournament_master="NPCCharacter.tournament_master_empire"
+		villager="NPCCharacter.villager_empire"
+		caravan_master="NPCCharacter.caravan_master_empire"
+		caravan_guard="NPCCharacter.caravan_guard_empire"
+		veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_empire"
+		prison_guard="NPCCharacter.prison_guard_empire"
+		guard="NPCCharacter.guard_empire"
+		blacksmith="NPCCharacter.blacksmith_empire"
+		weaponsmith="NPCCharacter.weaponsmith_empire"
+		townswoman="NPCCharacter.townswoman_empire"
+		townswoman_infant="NPCCharacter.townswoman_infant_empire"
+		townswoman_child="NPCCharacter.townswoman_child_empire"
+		townswoman_teenager="NPCCharacter.townswoman_teenager_empire"
+		townsman="NPCCharacter.townsman_empire"
+		townsman_infant="NPCCharacter.townsman_infant_empire"
+		townsman_child="NPCCharacter.townsman_child_empire"
+		village_woman="NPCCharacter.village_woman_empire"
+		villager_male_child="NPCCharacter.villager_child_empire"
+		villager_male_teenager="NPCCharacter.villager_teenager_empire"
+		villager_female_child="NPCCharacter.village_woman_child_empire"
+		villager_female_teenager="NPCCharacter.village_woman_teenager_empire"
+		townsman_teenager="NPCCharacter.townsman_teenager_empire"
+		ransom_broker="NPCCharacter.ransom_broker_empire"
+		gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_empire"
+		merchant_notary="NPCCharacter.merchant_notary_empire"
+		artisan_notary="NPCCharacter.artisan_notary_empire"
+		preacher_notary="NPCCharacter.preacher_notary_empire"
+		rural_notable_notary="NPCCharacter.rural_notable_notary_empire"
+		shop_worker="NPCCharacter.shop_worker_empire"
+		tavernkeeper="NPCCharacter.tavernkeeper_empire"
+		taverngamehost="NPCCharacter.taverngamehost_empire"
+		musician="NPCCharacter.musician_empire"
+		tavern_wench="NPCCharacter.tavern_wench_empire"
+		armorer="NPCCharacter.armorer_empire"
+		horseMerchant="NPCCharacter.horseMerchant_empire"
+		barber="NPCCharacter.barber_empire"
+		merchant="NPCCharacter.merchant_empire"
+		beggar="NPCCharacter.beggar_empire"
+		female_beggar="NPCCharacter.female_beggar_empire"
+		female_dancer="NPCCharacter.female_dancer_empire"
+		default_battle_equipment_roster="EquipmentRoster.emp_civ_template_default"
+		default_civilian_equipment_roster="EquipmentRoster.emp_civ_template_default"
+		default_stealth_equipment_roster="EquipmentRoster.default_stealth_equipment_roster"
+		duel_preset_equipment_roster="EquipmentRoster.emp_duel_preset_template"
+		marriage_bride_equipment_roster="EquipmentRoster.marriage_female_emp_cutscene_template"
+		board_game_type="Tablut"
+		default_character_creation_body_property="BodyProperty.default_character_creation_body_property_empire2"
+		start_point_position_x="657.95"
+		start_point_position_y="279.08">
+		<caravan_party_templates>
+			<caravan_party_template
+				id="PartyTemplate.caravan_template_empire" />
+		</caravan_party_templates>
+		<elite_caravan_party_templates>
+			<caravan_party_template
+				id="PartyTemplate.elite_caravan_template_empire" />
+		</elite_caravan_party_templates>
+		<available_ship_hulls></available_ship_hulls>
+		<vassal_reward_items>
+			<item
+				id="Item.justicier_2hsword" />
+		</vassal_reward_items>
+		<banner_bearer_replacement_weapons>
+			<item
+				id="Item.iron_spatha_sword_t2" />
+			<item
+				id="Item.empire_sword_1_t2" />
+			<item
+				id="Item.empire_sword_2_t3" />
+			<item
+				id="Item.empire_sword_6_t5" />
+		</banner_bearer_replacement_weapons>
+		<default_policies>
+			<policy
+				id="policy_senate" />
+		</default_policies>
+		<male_names>
+			<name
+				name="{=v9B50R0Q}Acarion" />
+			<name
+				name="{=aeLgc0cU}Acthon" />
+			<name
+				name="{=tWDyWroN}Amnon" />
+			<name
+				name="{=uTFjknE2}Andros" />
+			<name
+				name="{=fXgftgNv}Aphanys" />
+			<name
+				name="{=QjJAbaoT}Apys" />
+			<name
+				name="{=zInIqBD0}Arenicos" />
+			<name
+				name="{=W1uwgvAQ}Arion" />
+			<name
+				name="{=5VzWRMTn}Artimendros" />
+			<name
+				name="{=rGuYLmez}Ascyron" />
+			<name
+				name="{=J1nh9YiN}Atilon" />
+			<name
+				name="{=NBAGX54b}Avigos" />
+			<name
+				name="{=9cDw6vPF}Cadomenos" />
+			<name
+				name="{=R11i2uVl}Calytos" />
+			<name
+				name="{=lD1sl2XC}Camnon" />
+			<name
+				name="{=LP7yYoGQ}Caribos" />
+			<name
+				name="{=VhbasI9J}Castor" />
+			<name
+				name="{=VG9ng2n2}Chandion" />
+			<name
+				name="{=aezwJGvY}Chenon" />
+			<name
+				name="{=acp2IcMs}Crotor" />
+			<name
+				name="{=XKxeaF0I}Dalidos" />
+			<name
+				name="{=pCBkH35Q}Danos" />
+			<name
+				name="{=2OJEyP0d}Dasys" />
+			<name
+				name="{=SoTUisL3}Deltisos" />
+			<name
+				name="{=2uKoNaSG}Denos" />
+			<name
+				name="{=HfuAdGQX}Destor" />
+			<name
+				name="{=lEHtUGed}Diocosos" />
+			<name
+				name="{=5EiKEdi5}Dorion" />
+			<name
+				name="{=yAZC6F7P}Ecsorios" />
+			<name
+				name="{=hyOgAehG}Emarys" />
+			<name
+				name="{=rUvnbDi2}Encurion" />
+			<name
+				name="{=KjzJjj5n}Eronys" />
+			<name
+				name="{=gYit4RTe}Euchor" />
+			<name
+				name="{=oQCZp9qv}Eumenys" />
+			<name
+				name="{=uW38UtSH}Eupitor" />
+			<name
+				name="{=WfAuSpJq}Eutos" />
+			<name
+				name="{=RyorjCXF}Galon" />
+			<name
+				name="{=ZFlIT1tH}Ganimynos" />
+			<name
+				name="{=f3hTGKIP}Garitops" />
+			<name
+				name="{=nqxxr9We}Gavalon" />
+			<name
+				name="{=iDxygnVF}Gerotheon" />
+			<name
+				name="{=rFbAjSWM}Gorigos" />
+			<name
+				name="{=NxDJcR2c}Haratheos" />
+			<name
+				name="{=tgVJZ1Uc}Hecaron" />
+			<name
+				name="{=wQJGxBJI}Hophtalamos" />
+			<name
+				name="{=4lEEqyCg}Jacorios" />
+			<name
+				name="{=DwzrsJxS}Jamanys" />
+			<name
+				name="{=IU63oxWD}Jemynon" />
+			<name
+				name="{=t1OpnZph}Jeremos" />
+			<name
+				name="{=katzUyMI}Joron" />
+			<name
+				name="{=GWaJ7Ksq}Joculos" />
+			<name
+				name="{=iJvIH6NP}Jutheros" />
+			<name
+				name="{=BCy1KpvR}Lacalion" />
+			<name
+				name="{=6LMiTKZz}Lamenon" />
+			<name
+				name="{=F13aYbuk}Lavalios" />
+			<name
+				name="{=NFIQZOPQ}Leosios" />
+			<name
+				name="{=lbTMVAcI}Lerosion" />
+			<name
+				name="{=bHbR5Mgy}Losys" />
+			<name
+				name="{=CbxLZdVg}Lycos" />
+			<name
+				name="{=HCXHcBzT}Mattis" />
+			<name
+				name="{=X21PahQn}Menaclys" />
+			<name
+				name="{=am2UnbAK}Menor" />
+			<name
+				name="{=tTuaiLS6}Meritor" />
+			<name
+				name="{=qqW5n5Ox}Milos" />
+			<name
+				name="{=5yFy4U4i}Morynon" />
+			<name
+				name="{=ud6rhXbn}Mostiros" />
+			<name
+				name="{=04zSjaRe}Nartiros" />
+			<name
+				name="{=FF3dQKc1}Nethor" />
+			<name
+				name="{=u1lTJoPO}Nemos" />
+			<name
+				name="{=sDFb1PRI}Nortos" />
+			<name
+				name="{=QGIAbglw}Obron" />
+			<name
+				name="{=AEaRpupL}Ocheros" />
+			<name
+				name="{=ZmQx4gT3}Olichor" />
+			<name
+				name="{=pq0w8kry}Orachos" />
+			<name
+				name="{=JFVseSa3}Oros" />
+			<name
+				name="{=7UkzXWTQ}Osarios" />
+			<name
+				name="{=cZIhxH9e}Pacarios" />
+			<name
+				name="{=9sokmYMZ}Padmos" />
+			<name
+				name="{=NXOOJs2X}Patrys" />
+			<name
+				name="{=plx8kkxa}Pelicos" />
+			<name
+				name="{=1cKxsHSh}Penton" />
+			<name
+				name="{=vgBRa2BE}Poraclys" />
+			<name
+				name="{=q186AQHt}Phadon" />
+			<name
+				name="{=yhfJVEe0}Phelenos" />
+			<name
+				name="{=LMWiJi6V}Phirentos" />
+			<name
+				name="{=XZxIpCQH}Phorys" />
+			<name
+				name="{=VJbAdJe4}Purios" />
+			<name
+				name="{=M9CWBbMe}Rhanos" />
+			<name
+				name="{=P1zsoSPN}Rhovarion" />
+			<name
+				name="{=Ho6zsGTI}Sachanion" />
+			<name
+				name="{=5eTb2xr7}Sanion" />
+			<name
+				name="{=Zm4a2xsf}Salusios" />
+			<name
+				name="{=egCbjHDT}Semnon" />
+			<name
+				name="{=GeJobcre}Sinor" />
+			<name
+				name="{=E4WhEvu7}Sotherys" />
+			<name
+				name="{=FClEZIkT}Sovos" />
+			<name
+				name="{=rVUhYuvE}Suterios" />
+			<name
+				name="{=PDK4FHAx}Suvys" />
+			<name
+				name="{=Axe5FkET}Talison" />
+			<name
+				name="{=PR4IqkTW}Temeon" />
+			<name
+				name="{=9xyXdX4I}Tharos" />
+			<name
+				name="{=zfUhnG7y}Themestios" />
+			<name
+				name="{=9mQuSI3c}Thucasys" />
+			<name
+				name="{=P7iNhhPl}Turiados" />
+			<name
+				name="{=kfNW01y5}Tynops" />
+			<name
+				name="{=amlzciqP}Ucasios" />
+			<name
+				name="{=wbJzSg3X}Ulbesos" />
+			<name
+				name="{=SRncaw79}Urios" />
+			<name
+				name="{=pRbKbPK3}Vadrios" />
+			<name
+				name="{=TiJOjUi5}Valaos" />
+			<name
+				name="{=5nEh20ju}Vasylops" />
+			<name
+				name="{=VN1D1Qps}Velanor" />
+			<name
+				name="{=QNtdUfis}Vemioros" />
+			<name
+				name="{=bWb245zO}Voleos" />
+			<name
+				name="{=aH2ncPbK}Zalasos" />
+			<name
+				name="{=WTePYMNF}Zaraclys" />
+			<name
+				name="{=p0hcyZdp}Zenon" />
+			<name
+				name="{=3RBVn5yi}Zoros" />
+			<name
+				name="{=uCyAnus4}Zostios" />
+			<name
+				name="{=7hYr7jQ7}Leutros" />
+			<name
+				name="{=e7dayl1i}Mavinon" />
+			<name
+				name="{=3EZMoUlp}Narmys" />
+			<name
+				name="{=PvoTcJHa}Naselos" />
+			<name
+				name="{=QumqvLnP}Ochivos" />
+			<name
+				name="{=gxHrt6bC}Phamynor" />
+			<name
+				name="{=6IDmRZ5k}Phestos" />
+			<name
+				name="{=ek1Q2TJz}Polon" />
+		</male_names>
+		<female_names>
+			<name
+				name="{=h8DsXm7X}Achena" />
+			<name
+				name="{=BNnLbOkN}Adinea" />
+			<name
+				name="{=EGatdCLg}Alena" />
+			<name
+				name="{=UPaP0B2L}Alchyla" />
+			<name
+				name="{=QyXwJXIV}Andrasa" />
+			<name
+				name="{=NM5f1Q6I}Ariada" />
+			<name
+				name="{=3RbayfTG}Ascytala" />
+			<name
+				name="{=bmHAYBwX}Catila" />
+			<name
+				name="{=AdK4Ilzw}Chalia" />
+			<name
+				name="{=xVSOKf0p}Chara" />
+			<name
+				name="{=915frsPd}Corena" />
+			<name
+				name="{=KPQqENbd}Carinila" />
+			<name
+				name="{=BNuZ6nvd}Daniria" />
+			<name
+				name="{=sEgUB3jW}Deasora" />
+			<name
+				name="{=YBGCXSEx}Debana" />
+			<name
+				name="{=93hivVp6}Donysa" />
+			<name
+				name="{=0dHy2430}Echalera" />
+			<name
+				name="{=Oy5dH7gZ}Elea" />
+			<name
+				name="{=2YbgWjTK}Emyna" />
+			<name
+				name="{=rA3KybBX}Ethirea" />
+			<name
+				name="{=qiTtJyHE}Gala" />
+			<name
+				name="{=fGmpS0Dr}Gandarina" />
+			<name
+				name="{=ecJRFHyY}Gisetha" />
+			<name
+				name="{=a6qaFH7L}Herena" />
+			<name
+				name="{=LE9mRhSs}Hespedia" />
+			<name
+				name="{=tGhrpQ0D}Hyradia" />
+			<name
+				name="{=0MJi7mre}Hyscasia" />
+			<name
+				name="{=JQdqGaaB}Isibala" />
+			<name
+				name="{=RHXdqjQY}Ilina" />
+			<name
+				name="{=HSlPLC4m}Ira" />
+			<name
+				name="{=PNR2CvvX}Ithicala" />
+			<name
+				name="{=eOHeCKxn}Jespara" />
+			<name
+				name="{=6vtmYjTW}Jolanna" />
+			<name
+				name="{=Ew69yN84}Juthys" />
+			<name
+				name="{=028iCb8B}Jythea" />
+			<name
+				name="{=Jif1C3X3}Laria" />
+			<name
+				name="{=LX1YS9DW}Lasilea" />
+			<name
+				name="{=2oy7atk6}Lundana" />
+			<name
+				name="{=dwFZFQ6V}Lysica" />
+			<name
+				name="{=2fYYfHUI}Martira" />
+			<name
+				name="{=cqSaKXzl}Matha" />
+			<name
+				name="{=Vxt0xTvV}Mavea" />
+			<name
+				name="{=lgvtLEDA}Melchea" />
+			<name
+				name="{=QvfUqzpF}Mina" />
+			<name
+				name="{=11KckWau}Mitara" />
+			<name
+				name="{=IJlw8V5D}Mystesa" />
+			<name
+				name="{=uLjRHv9p}Nadea" />
+			<name
+				name="{=hreO0wwb}Nerhea" />
+			<name
+				name="{=04dAbdjM}Nyvia" />
+			<name
+				name="{=dLOlnl8m}Palysira" />
+			<name
+				name="{=pXBvPxHI}Penestea" />
+			<name
+				name="{=FUT6eXfw}Phaea" />
+			<name
+				name="{=WrAMfIG1}Phenoria" />
+			<name
+				name="{=uYbmhjI6}Rhamira" />
+			<name
+				name="{=BIAEZaVx}Rhandana" />
+			<name
+				name="{=H7oJaxqM}Rhelasa" />
+			<name
+				name="{=XMTD2clw}Rhoe" />
+			<name
+				name="{=0XEaaoah}Rosazia" />
+			<name
+				name="{=L9weGfoX}Salea" />
+			<name
+				name="{=nSoJkeBI}Sittacea" />
+			<name
+				name="{=V1QLbhRl}Sora" />
+			<name
+				name="{=qMJ7UZvk}Surena" />
+			<name
+				name="{=gmD9mgR1}Synira" />
+			<name
+				name="{=Cxazvjr3}Tamarea" />
+			<name
+				name="{=b2aRoXsb}Tessa" />
+			<name
+				name="{=bQKbW8Tx}Thasyna" />
+			<name
+				name="{=YVVCaQE5}Thera" />
+			<name
+				name="{=CvVJyKYA}Thelea" />
+			<name
+				name="{=jJV5Tn09}Tethyclesa" />
+			<name
+				name="{=e4jAHUX0}Tymata" />
+			<name
+				name="{=z2KE7glc}Thylea" />
+			<name
+				name="{=3bIc2X2l}Vaminesa" />
+			<name
+				name="{=VzhbUL60}Vendelia" />
+			<name
+				name="{=a2ajWcI3}Viria" />
+			<name
+				name="{=5VZ0GF6Y}Zalisa" />
+			<name
+				name="{=wbLqHvjE}Zerosica" />
+			<name
+				name="{=zxZH2WbD}Zimena" />
+			<name
+				name="{=AccBcEIt}Zoana" />
+		</female_names>
+		<clan_names>
+			<name
+				name="{=pRA9EzNv}Acapanos" />
+			<name
+				name="{=vdOWVAoz}Altesios" />
+			<name
+				name="{=ogq9oxDn}Angarys" />
+			<name
+				name="{=TNI6qRbQ}Astrethides" />
+			<name
+				name="{=NTRPMben}Atragorys" />
+			<name
+				name="{=MgDUudOx}Balastisos" />
+			<name
+				name="{=t36SVqzP}Bustamys" />
+			<name
+				name="{=xyKumbJI}Calastides" />
+			<name
+				name="{=Rvww4Kxi}Corstases" />
+			<name
+				name="{=jhlwsyqq}Chromasos" />
+			<name
+				name="{=kWiQaFLM}Delicos" />
+			<name
+				name="{=aaOSBHrI}Dinamontes" />
+			<name
+				name="{=DiB4ukeK}Elysos" />
+			<name
+				name="{=7lixVdYb}Erchisasos" />
+			<name
+				name="{=FakFqJf1}Eurtimides" />
+			<name
+				name="{=pUvrTrHT}Gessios" />
+			<name
+				name="{=sgIlIqrI}Goronos" />
+			<name
+				name="{=fsOUhzLv}Jalos" />
+			<name
+				name="{=GcgpbmWB}Jintasos" />
+			<name
+				name="{=IK7uQU2p}Lasirys" />
+			<name
+				name="{=CuocGtTq}Lestharos" />
+			<name
+				name="{=w4u0LxQb}Lovanides" />
+			<name
+				name="{=lsOtNjxl}Manitesos" />
+			<name
+				name="{=FVl3D2qT}Meones" />
+			<name
+				name="{=8CQuY3RO}Munitides" />
+			<name
+				name="{=fAKa9JfU}Nathanys" />
+			<name
+				name="{=HSpdZCr5}Nebranos" />
+			<name
+				name="{=024kHRwG}Nomanides" />
+			<name
+				name="{=RhwPmahK}Opynates" />
+			<name
+				name="{=E1NB09bP}Otsamides" />
+			<name
+				name="{=PbxaX8F5}Othalotos" />
+			<name
+				name="{=OL6fbZRY}Paltos" />
+			<name
+				name="{=ild3wLKb}Pylitax" />
+			<name
+				name="{=eRg4Ngl1}Pharchasys" />
+			<name
+				name="{=HPrHkie6}Phenigos" />
+			<name
+				name="{=XWqBgFzc}Phorides" />
+			<name
+				name="{=Yl3c9WaM}Salastrys" />
+			<name
+				name="{=DYdI0faN}Stracanasthes" />
+			<name
+				name="{=g7etVhSO}Sumessos" />
+			<name
+				name="{=U9kQ2sTU}Tasyx" />
+			<name
+				name="{=lMxYCQYF}Teminides" />
+			<name
+				name="{=oGf1fUpP}Therycos" />
+			<name
+				name="{=AeNqteUX}Zebales" />
+			<name
+				name="{=63ZZltcm}Zalastros" />
+		</clan_names>
+		<cultural_feats>
+			<feat
+				id="empire_decreased_garrison_wage" />
+			<feat
+				id="empire_army_influence" />
+			<feat
+				id="empire_slower_hearth_production" />
+		</cultural_feats>
+		<possible_clan_banner_icon_ids>
+			<icon
+				id="100" />
+			<icon
+				id="101" />
+			<icon
+				id="102" />
+			<icon
+				id="103" />
+			<icon
+				id="104" />
+			<icon
+				id="105" />
+			<icon
+				id="106" />
+			<icon
+				id="107" />
+			<icon
+				id="108" />
+			<icon
+				id="109" />
+			<icon
+				id="110" />
+			<icon
+				id="119" />
+			<icon
+				id="147" />
+			<icon
+				id="148" />
+			<icon
+				id="152" />
+			<icon
+				id="200" />
+			<icon
+				id="201" />
+			<icon
+				id="202" />
+			<icon
+				id="203" />
+			<icon
+				id="204" />
+			<icon
+				id="205" />
+			<icon
+				id="206" />
+			<icon
+				id="207" />
+			<icon
+				id="208" />
+			<icon
+				id="209" />
+			<icon
+				id="210" />
+			<icon
+				id="211" />
+			<icon
+				id="212" />
+			<icon
+				id="213" />
+			<icon
+				id="214" />
+			<icon
+				id="215" />
+			<icon
+				id="216" />
+			<icon
+				id="217" />
+			<icon
+				id="218" />
+			<icon
+				id="219" />
+			<icon
+				id="220" />
+			<icon
+				id="221" />
+			<icon
+				id="222" />
+			<icon
+				id="223" />
+			<icon
+				id="400" />
+		</possible_clan_banner_icon_ids>
+		<notable_templates>
+			<template
+				name="NPCCharacter.spc_notable_empire_0" />
+			<template
+				name="NPCCharacter.spc_notable_empire_0b" />
+			<template
+				name="NPCCharacter.spc_notable_empire_1" />
+			<template
+				name="NPCCharacter.spc_notable_empire_1b" />
+			<template
+				name="NPCCharacter.spc_notable_empire_2" />
+			<template
+				name="NPCCharacter.spc_notable_empire_2b" />
+			<template
+				name="NPCCharacter.spc_notable_empire_3" />
+			<template
+				name="NPCCharacter.spc_notable_empire_3b" />
+			<template
+				name="NPCCharacter.spc_notable_empire_4" />
+			<template
+				name="NPCCharacter.spc_notable_empire_4b" />
+			<template
+				name="NPCCharacter.spc_notable_empire_5" />
+			<template
+				name="NPCCharacter.spc_notable_empire_6" />
+			<template
+				name="NPCCharacter.spc_notable_empire_7" />
+			<template
+				name="NPCCharacter.spc_notable_empire_8" />
+			<template
+				name="NPCCharacter.spc_notable_empire_9" />
+			<template
+				name="NPCCharacter.spc_notable_empire_10" />
+			<template
+				name="NPCCharacter.spc_notable_empire_11" />
+			<template
+				name="NPCCharacter.spc_notable_empire_12" />
+			<template
+				name="NPCCharacter.spc_notable_empire_13" />
+			<template
+				name="NPCCharacter.spc_notable_empire_21" />
+			<template
+				name="NPCCharacter.spc_notable_empire_22" />
+			<template
+				name="NPCCharacter.spc_notable_empire_gl1" />
+			<template
+				name="NPCCharacter.spc_notable_empire_gl4" />
+			<template
+				name="NPCCharacter.spc_empire_headman_1" />
+			<template
+				name="NPCCharacter.spc_empire_headman_2" />
+			<template
+				name="NPCCharacter.spc_empire_headman_3" />
+		</notable_templates>
+		<lord_templates>
+			<template
+				name="NPCCharacter.spc_legion_of_the_betrayed_leader_0" />
+			<template
+				name="NPCCharacter.spc_legion_of_the_betrayed_leader_1" />
+			<template
+				name="NPCCharacter.spc_legion_of_the_betrayed_leader_2" />
+			<template
+				name="NPCCharacter.spc_legion_of_the_betrayed_leader_3" />
+			<template
+				name="NPCCharacter.spc_hidden_hand_leader_0" />
+			<template
+				name="NPCCharacter.spc_hidden_hand_leader_1" />
+			<template
+				name="NPCCharacter.spc_hidden_hand_leader_2" />
+			<template
+				name="NPCCharacter.spc_hidden_hand_leader_3" />
+			<template
+				name="NPCCharacter.spc_embers_of_flame_leader_0" />
+			<template
+				name="NPCCharacter.spc_embers_of_flame_leader_1" />
+			<template
+				name="NPCCharacter.spc_embers_of_flame_leader_2" />
+			<template
+				name="NPCCharacter.spc_embers_of_flame_leader_3" />
+			<template
+				name="NPCCharacter.spc_eleftheroi_leader_0" />
+			<template
+				name="NPCCharacter.spc_eleftheroi_leader_1" />
+			<template
+				name="NPCCharacter.spc_eleftheroi_leader_2" />
+			<template
+				name="NPCCharacter.spc_eleftheroi_leader_3" />
+		</lord_templates>
+		<rebellion_hero_templates>
+			<template
+				name="NPCCharacter.spc_legion_of_the_betrayed_leader_0" />
+			<template
+				name="NPCCharacter.spc_legion_of_the_betrayed_leader_1" />
+			<template
+				name="NPCCharacter.spc_legion_of_the_betrayed_leader_2" />
+			<template
+				name="NPCCharacter.spc_legion_of_the_betrayed_leader_3" />
+			<template
+				name="NPCCharacter.spc_hidden_hand_leader_0" />
+			<template
+				name="NPCCharacter.spc_hidden_hand_leader_1" />
+			<template
+				name="NPCCharacter.spc_hidden_hand_leader_2" />
+			<template
+				name="NPCCharacter.spc_hidden_hand_leader_3" />
+			<template
+				name="NPCCharacter.spc_embers_of_flame_leader_0" />
+			<template
+				name="NPCCharacter.spc_embers_of_flame_leader_1" />
+			<template
+				name="NPCCharacter.spc_embers_of_flame_leader_2" />
+			<template
+				name="NPCCharacter.spc_embers_of_flame_leader_3" />
+			<template
+				name="NPCCharacter.spc_eleftheroi_leader_0" />
+			<template
+				name="NPCCharacter.spc_eleftheroi_leader_1" />
+			<template
+				name="NPCCharacter.spc_eleftheroi_leader_2" />
+			<template
+				name="NPCCharacter.spc_eleftheroi_leader_3" />
+		</rebellion_hero_templates>
+		<tournament_team_templates_one_participant>
+			<template
+				name="NPCCharacter.tournament_template_empire_one_participant_set_v1" />
+		</tournament_team_templates_one_participant>
+		<tournament_team_templates_two_participant>
+			<template
+				name="NPCCharacter.tournament_template_empire_two_participant_set_v1" />
+			<template
+				name="NPCCharacter.tournament_template_empire_two_participant_set_v2" />
+			<template
+				name="NPCCharacter.tournament_template_empire_two_participant_set_v3" />
+		</tournament_team_templates_two_participant>
+		<tournament_team_templates_four_participant>
+			<template
+				name="NPCCharacter.tournament_template_empire_four_participant_set_v1" />
+			<template
+				name="NPCCharacter.tournament_template_empire_four_participant_set_v2" />
+			<template
+				name="NPCCharacter.tournament_template_empire_four_participant_set_v3" />
+		</tournament_team_templates_four_participant>
+		<basic_mercenary_troops>
+			<template
+				name="NPCCharacter.eastern_mercenary" />
+			<template
+				name="NPCCharacter.western_mercenary" />
+			<template
+				name="NPCCharacter.sword_sisters_sister_t3" />
+		</basic_mercenary_troops>
+	</Culture>
+</SPCultures>

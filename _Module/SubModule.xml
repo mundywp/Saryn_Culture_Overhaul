@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Module xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/BUTR/Bannerlord.XmlSchemas/master/SubModule.xsd" >
+  <Id value="Saryn_Culture_Overhaul" />
+  <Name value="Saryn_Culture_Overhaul" />
+  <Version value="v0.0.1" />
+  <DefaultModule value="false" />
+  <ModuleCategory value="Singleplayer"/>
+  <ModuleType value="Community" />
+  <DependedModules>
+    <DependedModule Id="Bannerlord.Harmony" DependentVersion="^v2.4.2" />
+    <DependedModule Id="Native" />
+    <DependedModule Id="SandBoxCore" />
+    <DependedModule Id="Sandbox" />
+    <DependedModule Id="StoryMode" />
+    <DependedModule Id="CustomBattle" />
+	  <DependedModule Id="NavalDLC" />
+  </DependedModules>
+  <!-- Community Dependency Metadata -->
+  <!-- https://github.com/BUTR/Bannerlord.BLSE#community-dependency-metadata -->
+  <DependedModuleMetadatas>
+    <DependedModuleMetadata id="Bannerlord.Harmony" order="LoadBeforeThis" version="^v2.4.2" />
+    <DependedModuleMetadata id="Native" order="LoadBeforeThis" />
+    <DependedModuleMetadata id="SandBoxCore" order="LoadBeforeThis" />
+    <DependedModuleMetadata id="Sandbox" order="LoadBeforeThis" />
+    <DependedModuleMetadata id="StoryMode" order="LoadBeforeThis" />
+    <DependedModuleMetadata id="CustomBattle" order="LoadBeforeThis" />
+	<DependedModuleMetadata Id="NavalDLC" order="LoadBeforeThis" />
+  </DependedModuleMetadatas>
+  <!-- Community Dependency Metadata -->
+  <SubModules>
+    <SubModule>
+      <Name value="Saryn_Culture_Overhaul" />
+      <DLLName value="Saryn_Culture_Overhaul.dll" />
+      <SubModuleClassType value="Saryn_Culture_Overhaul.SarynCultureOverhaul" />
+    </SubModule>
+  </SubModules>
+	<Xmls>
+		<!-- 1) Edits to the baseline cultures -->
+		
+		<!-- 2) Defining New Cultures -->
+			<!-- 2.1) New Aserai Cultures -->
+			
+		    <!-- 2.2) New Battanian Cultures -->
+		
+			<!-- 2.3) New Imperial Cultures -->
+				<!-- 2.3.1) Rhotic Imperial - id=empire2 -->
+					<!-- Culture Definition - WIP, functional, but it still uses a lot of the vanilla empire assets that I need to replace. -->
+					<XmlNode>
+						<XmlName id="SPCultures" path="ImperialCultures/Empire2" />
+						<IncludedGameTypes>
+							<GameType value="Campaign"/>
+							<GameType value="CampaignStoryMode"/>
+							<GameType value="Sandbox"/>
+						</IncludedGameTypes>
+					</XmlNode>
+					<!-- Culture Definition for War Sails -->
+					<!-- War Sails DLC uses XSLT to transform the baseline culture entry without having to retype everything out. I'm applying the same method. -->
+					<XmlNode>
+						<XmlName id="SPCultures" path="XSLT/ImperialCultures/Empire2_Naval" />
+						<IncludedGameTypes>
+							<GameType value="Campaign"/>
+							<GameType value="CampaignStoryMode"/>
+							<GameType value="Sandbox"/>
+						</IncludedGameTypes>
+					</XmlNode>
+					<!-- Body Properties for NPC Characters - DONE -->
+					<XmlNode>
+					<XmlName id="BodyProperties" path="ImperialCultures/BodyProperties/Empire2_BodyProperties"/>
+						<IncludedGameTypes>
+							<GameType value="Campaign"/>
+							<GameType value="CampaignStoryMode"/>
+							<GameType value="Sandbox"/>
+						</IncludedGameTypes>
+					</XmlNode>
+					<!-- Equipment Rosters -->
+					<XmlNode>
+						<!-- Education equipment rosters - i.e. what kids will be wearing in the menus when you educate them. -->
+						<XmlName id="EquipmentRosters" path="ImperialCultures/EquipmentRosters/Empire2_EducationEquipmentRosters"/>
+						<IncludedGameTypes>
+							<GameType value="Campaign"/>
+							<GameType value="CampaignStoryMode"/>
+							<GameType value="Sandbox"/>
+						</IncludedGameTypes>
+					</XmlNode>
+					<XmlNode>
+						<!-- Generic Equipment Rosters for Fighters, Townspeople, etc. Also includes equipment rosters necessary for character creation and starting equipment -->
+						<XmlName id="EquipmentRosters" path="ImperialCultures/EquipmentRosters/Empire2_EquipmentRosters"/>
+						<IncludedGameTypes>
+							<GameType value="Campaign"/>
+							<GameType value="CampaignStoryMode"/>
+							<GameType value="Sandbox"/>
+						</IncludedGameTypes>
+					</XmlNode>
+					<!-- NPC Characters -->
+					<XmlNode>
+						<!-- NPC Templates for the education UI -->
+						<XmlName id="NPCCharacters" path="ImperialCultures/NPCCharacters/Empire2_EducationTemplates" />
+						<IncludedGameTypes>
+							<GameType value="Campaign" />
+							<GameType value="CampaignStoryMode" />
+							<GameType value="Sandbox"/>
+						</IncludedGameTypes>
+					</XmlNode>
+					<XmlNode>
+						<!-- NPC Troops -->
+						<XmlName id="NPCCharacters" path="ImperialCultures/NPCCharacters/Empire2_Troops"/>
+						<IncludedGameTypes>
+							<GameType value="Campaign"/>
+							<GameType value="CampaignStoryMode"/>
+							<GameType value="Sandbox"/>
+						</IncludedGameTypes>
+					</XmlNode>
+					<XmlNode>
+						<!-- NPC Lords-->
+						<XmlName id="NPCCharacters" path="ImperialCultures/NPCCharacters/Empire2_Lords"/>
+						<IncludedGameTypes>
+							<GameType value="Campaign"/>
+							<GameType value="CampaignStoryMode"/>
+							<GameType value="Sandbox"/>
+						</IncludedGameTypes>
+					</XmlNode>
+					<XmlNode>
+						<!-- NPC Wanderers -->
+						<XmlName id="NPCCharacters" path="ImperialCultures/NPCCharacters/Empire2_Wanderers"/>
+						<IncludedGameTypes>
+							<GameType value="Campaign"/>
+							<GameType value="CampaignStoryMode"/>
+							<GameType value="Sandbox"/>
+						</IncludedGameTypes>
+					</XmlNode>
+					<XmlNode>
+						<!-- NPC Notables -->
+						<XmlName id="NPCCharacters" path="ImperialCultures/NPCCharacters/Empire2_Notables"/>
+						<IncludedGameTypes>
+							<GameType value="Campaign"/>
+							<GameType value="CampaignStoryMode"/>
+							<GameType value="Sandbox"/>
+						</IncludedGameTypes>
+					</XmlNode>
+					<!-- Game Text-->
+					<!-- Dialogue, Menu Items, Sibling Names, etc. -->
+					<XmlNode>
+						<XmlName id="GameText" path="ImperialCultures/Strings/Empire2_Strings" />
+					</XmlNode>
+				<!-- Battanic Imperial - id=empire3 -->
+		
+				<!-- Dryatic Imperial - id=empire4 -->
+		
+				<!-- Tranaesiatic Imperial - id=empire5 -->
+		
+				<!-- Calceadic Imperial - id=empire6 -->
+		
+		    <!-- 2.4) New Khuzait Cultures -->
+				<!-- Khergit - id=khuzait2 -->
+		
+				<!-- Iltanar - id=khuzait3 -->
+		
+			<!-- 2.5) New Nord Cultures -->
+				<!-- Jumelander - id=nord2 -->
+		
+		    <!-- 2.6) New Sturgian Cultures -->
+				<!-- Vagir - id=sturgia2 -->
+		    <!-- 2.7) New Vlandian Cultures -->
+				<!-- Swadian - id=vlandia 2 -->
+		
+		<!-- 3) Map edits to place new cultures on the map -->
+		
+		<!-- 4) Edits to Clans to change their cultures -->
+		
+		<!-- 5) Edits to Individual Heroes to change their cultures -->
+			<!-- 2) Equipment Rosters for NPC Characters-->
+			<!-- These are used to easily define and reuse equipment without having to type them all out every time.-->
+			
+			<!-- 3) NPC Character Lists-->
+		
+			<!-- 4) Culture Definition -->
+
+			<!-- 3.0 Education Templates for the education of NPCs - a clone of vanilla empire -->
+
+		
+			<!-- 9) Game Text For the Culture (Dialogue, menu items, sibling names, etc.) -->
+			
+	</Xmls>
+</Module>

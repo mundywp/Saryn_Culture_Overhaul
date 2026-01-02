@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- Empire 2 - Rhotic Imperial -->
+<!-- "Notables means anything that isn't a troop or a lord that the game would need to spawn. Includes things ranging from city guards to blacksmiths to tournament participants. -->
+<!-- Vanilla references:
+	\Modules\SandBox\ModuleData\notables.xml
+					-->
+<NPCCharacters>
+	
+</NPCCharacters>

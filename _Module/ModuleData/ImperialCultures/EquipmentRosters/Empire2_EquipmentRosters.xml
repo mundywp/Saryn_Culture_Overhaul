@@ -1,0 +1,2093 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- Empire 2 - Rhotic Imperial -->
+<!-- These are a copy of the vanilla empire equipment rosters -->
+<EquipmentRosters>
+	<!-- NPCs (Notables, Wanderers, Artisans, etc.) -->
+	<!-- Notables -->
+	<EquipmentRoster
+		id="spc_notable_empire2_5"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.empire_sword_1_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.monk_robe" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="spc_notable_empire2_6"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.empire_sword_1_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.monk_robe" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="spc_notable_empire2_7"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.empire_sword_1_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.monk_robe" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="spc_notable_empire2_8"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.empire_sword_4_t4" />
+			<Equipment
+				slot="Body"
+				id="Item.tied_cloth_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.empire_sword_4_t4" />
+			<Equipment
+				slot="Body"
+				id="Item.tunic_with_rolled_cloth" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="spc_notable_empire2_9"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.empire_sword_4_t4" />
+			<Equipment
+				slot="Body"
+				id="Item.tied_cloth_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.empire_sword_4_t4" />
+			<Equipment
+				slot="Head"
+				id="Item.leather_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.tunic_with_shoulder_pads" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<!-- Wanderers -->
+	<EquipmentRoster
+		id="npc_wanderer_equipment_empire2"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.iron_spatha_sword_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.cloth_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.iron_spatha_sword_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.tied_cloth_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.wrapped_shoes" />
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.iron_spatha_sword_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.tundra_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_leather_boots" />
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.short_sword_t3" />
+			<Equipment
+				slot="Body"
+				id="Item.padded_cloth_with_strips" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.empire_mace_1_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.leather_coat_over_cloth" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_leather_boots" />
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.empire_mace_1_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.tunic_with_rolled_cloth" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_boots" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Body"
+				id="Item.fine_town_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+			<Equipment
+				slot="Item0"
+				id="Item.vlandia_sword_2_t3" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<!-- Artisans -->
+	<EquipmentRoster
+		id="npc_artisan_equipment_empire2"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.empire_sword_2_t3" />
+			<Equipment
+				slot="Body"
+				id="Item.heavy_nordic_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Body"
+				id="Item.fine_town_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+		</EquipmentSet>
+		<Flags
+			IsCivilianTemplate="true" />
+	</EquipmentRoster>
+	<!-- Gang Leaders -->
+	<EquipmentRoster
+		id="npc_gang_leader_equipment_empire2"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.empire_sword_1_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.heavy_nordic_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Body"
+				id="Item.fine_town_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+		</EquipmentSet>
+		<Flags
+			IsCivilianTemplate="true" />
+	</EquipmentRoster>
+    <!-- Preachers -->
+	<EquipmentRoster
+		id="npc_preacher_equipment_empire2"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.empire_sword_1_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.heavy_nordic_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Body"
+				id="Item.fine_town_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+		</EquipmentSet>
+		<Flags
+			IsCivilianTemplate="true" />
+	</EquipmentRoster>
+	<!-- Merchants -->
+	<EquipmentRoster
+		id="npc_merchant_equipment_empire"
+		culture="Culture.empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.empire_sword_1_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.heavy_nordic_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Body"
+				id="Item.fine_town_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+		</EquipmentSet>
+		<Flags
+			IsCivilianTemplate="true" />
+	</EquipmentRoster>
+	<!-- Gentry -->
+	<EquipmentRoster
+		id="npc_gentry_equipment_empire2"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.empire_sword_1_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.heavy_nordic_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.empire_sword_1_t2" />
+			<Equipment
+				slot="Head"
+				id="Item.leather_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.tunic_with_shoulder_pads" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.simple_back_sword_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.leather_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.wrapped_shoes" />
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.simple_back_sword_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.fine_town_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.simple_back_sword_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.tunic_with_rolled_cloth" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_boots" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item0"
+				id="Item.empire_sword_2_t3" />
+			<Equipment
+				slot="Body"
+				id="Item.sleeveless_padded_short_coat" />
+			<Equipment
+				slot="Gloves"
+				id="Item.leather_gloves" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_boots" />
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.simple_back_sword_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.leather_coat_over_cloth" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.simple_back_sword_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.thick_sleeved_robe" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.simple_back_sword_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.merchants_fur_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.empire_sword_1_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.long_woolen_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Body"
+				id="Item.fine_town_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+			<Equipment
+				slot="Item0"
+				id="Item.empire_sword_2_t3" />
+		</EquipmentSet>
+		<Flags
+			IsNobleTemplate="true"
+			IsCivilianTemplate="true" />
+	</EquipmentRoster>
+	
+	<!-- Character Creation-->
+	<!-- Parents -->
+	<EquipmentRoster
+		id="mother_char_creation_none_empire2"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.empire_dress" />
+			<Equipment
+				slot="Cape"
+				id="Item.female_hood" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="father_char_creation_none_empire2"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.cloth_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<!-- 1. Retainer -->
+	<EquipmentRoster
+		id="mother_char_creation_retainer_empire2"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.head_wrapped" />
+			<Equipment
+				slot="Body"
+				id="Item.empire_dress" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="father_char_creation_retainer_empire2"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.imperial_lamellar_over_leather" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<!--2.Merchant-->
+	<EquipmentRoster
+		id="mother_char_creation_merchant_empire2"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.dress_with_overall" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+			<Equipment
+				slot="Head"
+				id="Item.head_scarf" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="father_char_creation_merchant_empire2"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.merchants_fur_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+			<Equipment
+				slot="Head"
+				id="Item.merchants_hat" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<!--3.Freeholder-->
+	<EquipmentRoster
+		id="mother_char_creation_farmer_empire2"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.laced_dress" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="father_char_creation_farmer_empire2"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.bandit_leather_water_flask" />
+			<Equipment
+				slot="Head"
+				id="Item.leather_cap" />
+			<Equipment
+				slot="Leg"
+				id="Item.plated_strip_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<!--4.Artisan-->
+	<EquipmentRoster
+		id="mother_char_creation_artisan_empire2"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.cloth_apron" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+			<Equipment
+				slot="Head"
+				id="Item.head_wrapped" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="father_char_creation_artisan_empire2"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.leather_apron" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<!--5.Forester-->
+	<EquipmentRoster
+		id="mother_char_creation_hunter_empire"
+		culture="Culture.empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.battania_female_civil_a" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="father_char_creation_hunter_empire2"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.cloth_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+			<Equipment
+				slot="Gloves"
+				id="Item.leather_gloves" />
+			<Equipment
+				slot="Cape"
+				id="Item.battania_woodland_cloak" />
+			<Equipment
+				slot="Head"
+				id="Item.roughhide_cap" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<!--6.Vagabond-->
+	<EquipmentRoster
+		id="mother_char_creation_vagabond_empire2"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.plain_dress" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="father_char_creation_vagabond_empire"
+		culture="Culture.empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.torn_bandit_clothes" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<!-- Player Equiment -->
+	<!-- Retainer -->
+	<EquipmentRoster
+		id="player_char_creation_childhood_age_empire2_retainer_m"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.fine_town_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_education_age_empire2_retainer_m"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.fine_town_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_childhood_age_empire2_retainer_f"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.fine_town_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_education_age_empire2_retainer_f"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.fine_town_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<!--Merchant -->
+	<EquipmentRoster
+		id="player_char_creation_childhood_age_empire2_merchant_m"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.footmans_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_education_age_empire2_merchant_m"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.footmans_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_childhood_age_empire2_merchant_f"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.footmans_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_education_age_empire2_merchant_f"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.footmans_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<!--Freeholder -->
+	<EquipmentRoster
+		id="player_char_creation_childhood_age_empire2_farmer_m"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.bandit_leather_water_flask" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_education_age_empire2_farmer_m"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.bandit_leather_water_flask" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_childhood_age_empire2_farmer_f"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.plain_dress" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_education_age_empire2_farmer_f"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.plain_dress" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<!--Artisan -->
+	<EquipmentRoster
+		id="player_char_creation_childhood_age_empire2_artisan_m"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.cloth_apron" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_education_age_empire2_artisan_m"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.cloth_apron" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_childhood_age_empire2_artisan_f"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.cloth_apron" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_education_age_empire2_artisan_f"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.cloth_apron" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<!--Forester -->
+	<EquipmentRoster
+		id="player_char_creation_childhood_age_empire2_hunter_m"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.battania_civil_a" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_education_age_empire2_hunter_m"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.battania_civil_a" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_childhood_age_empire2_hunter_f"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.battania_civil_a" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_education_age_empire2_hunter_f"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.battania_civil_a" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<!--Vagabond -->
+	<EquipmentRoster
+		id="player_char_creation_childhood_age_empire2_vagabond_m"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.torn_bandit_clothes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_education_age_empire2_vagabond_m"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.torn_bandit_clothes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_childhood_age_empire2_vagabond_f"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.torn_bandit_clothes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_education_age_empire2_vagabond_f"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.torn_bandit_clothes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<!-- PLAYER STARTING EQUIPMENT SETS -->
+	<EquipmentRoster
+		id="player_char_creation_empire2_retainer_m"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Item1"
+				id="Item.studded_bound_kite_shield" />
+			<Equipment
+				slot="Item0"
+				id="Item.iron_spatha_sword_t2" />
+			<Equipment
+				slot="Item2"
+				id="Item.imperial_spear_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.tunic_with_rolled_cloth" />
+			<Equipment
+				slot="Leg"
+				id="Item.empire_horseman_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.sumpter_horse" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.light_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item0"
+				id="Item.iron_spatha_sword_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.fine_town_tunic" />
+			<Equipment
+				slot="Cape"
+				id="Item.scarf" />
+			<Equipment
+				slot="Leg"
+				id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_empire2_retainer_f"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Item1"
+				id="Item.studded_bound_kite_shield" />
+			<Equipment
+				slot="Item0"
+				id="Item.iron_spatha_sword_t2" />
+			<Equipment
+				slot="Item2"
+				id="Item.imperial_spear_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.tunic_with_rolled_cloth" />
+			<Equipment
+				slot="Leg"
+				id="Item.empire_horseman_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.sumpter_horse" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.light_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item0"
+				id="Item.iron_spatha_sword_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.fine_town_tunic" />
+			<Equipment
+				slot="Cape"
+				id="Item.female_scarf" />
+			<Equipment
+				slot="Leg"
+				id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_empire2_mercenary_m"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.small_flat_heater_shield" />
+			<Equipment
+				slot="Item1"
+				id="Item.empire_sword_1_t2" />
+			<Equipment
+				slot="Item2"
+				id="Item.imperial_spear_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.tunic_with_shoulder_pads" />
+			<Equipment
+				slot="Leg"
+				id="Item.empire_horseman_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.sumpter_horse" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.light_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item0"
+				id="Item.empire_sword_1_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.fine_town_tunic" />
+			<Equipment
+				slot="Cape"
+				id="Item.scarf" />
+			<Equipment
+				slot="Leg"
+				id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_empire2_mercenary_f"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.small_flat_heater_shield" />
+			<Equipment
+				slot="Item1"
+				id="Item.empire_sword_1_t2" />
+			<Equipment
+				slot="Item2"
+				id="Item.imperial_spear_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.tunic_with_shoulder_pads" />
+			<Equipment
+				slot="Leg"
+				id="Item.empire_horseman_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.sumpter_horse" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.light_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item0"
+				id="Item.empire_sword_1_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.fine_town_tunic" />
+			<Equipment
+				slot="Cape"
+				id="Item.female_scarf" />
+			<Equipment
+				slot="Leg"
+				id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_empire2_guard_m"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Item1"
+				id="Item.empire_sword_1_t2" />
+			<Equipment
+				slot="Item0"
+				id="Item.studded_bound_kite_shield" />
+			<Equipment
+				slot="Item2"
+				id="Item.crossbow_i" />
+			<Equipment
+				slot="Item3"
+				id="Item.bolt_a" />
+			<Equipment
+				slot="Body"
+				id="Item.tunic_with_shoulder_pads" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+			<Equipment
+				slot="Horse"
+				id="Item.sumpter_horse" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.stripped_leather_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item0"
+				id="Item.empire_sword_1_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.tied_cloth_tunic" />
+			<Equipment
+				slot="Cape"
+				id="Item.scarf" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_empire2_guard_m"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Item1"
+				id="Item.empire_sword_1_t2" />
+			<Equipment
+				slot="Item0"
+				id="Item.studded_bound_kite_shield" />
+			<Equipment
+				slot="Item2"
+				id="Item.crossbow_i" />
+			<Equipment
+				slot="Item3"
+				id="Item.bolt_a" />
+			<Equipment
+				slot="Body"
+				id="Item.tunic_with_shoulder_pads" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+			<Equipment
+				slot="Horse"
+				id="Item.sumpter_horse" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.stripped_leather_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item0"
+				id="Item.empire_sword_1_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.tied_cloth_tunic" />
+			<Equipment
+				slot="Cape"
+				id="Item.scarf" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_empire2_hunter_m"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.empire_sword_1_t2" />
+			<Equipment
+				slot="Item2"
+				id="Item.hunting_bow" />
+			<Equipment
+				slot="Item3"
+				id="Item.default_arrows" />
+			<Equipment
+				slot="Body"
+				id="Item.empire_warrior_padded_armor_e" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+			<Equipment
+				slot="Horse"
+				id="Item.sumpter_horse" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.stripped_leather_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item0"
+				id="Item.empire_sword_1_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.empire_warrior_padded_armor_e" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_empire2_hunter_f"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.empire_sword_1_t2" />
+			<Equipment
+				slot="Item2"
+				id="Item.hunting_bow" />
+			<Equipment
+				slot="Item3"
+				id="Item.default_arrows" />
+			<Equipment
+				slot="Body"
+				id="Item.empire_warrior_padded_armor_e" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+			<Equipment
+				slot="Horse"
+				id="Item.sumpter_horse" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.stripped_leather_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item0"
+				id="Item.empire_sword_1_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.empire_warrior_padded_armor_e" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_empire2_infantry_m"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Item2"
+				id="Item.imperial_spear_t2" />
+			<Equipment
+				slot="Item0"
+				id="Item.empire_sword_1_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.footmans_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+			<Equipment
+				slot="Horse"
+				id="Item.sumpter_horse" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.stripped_leather_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item0"
+				id="Item.empire_sword_1_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.fine_town_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_empire2_infantry_f"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Item2"
+				id="Item.imperial_spear_t2" />
+			<Equipment
+				slot="Item0"
+				id="Item.empire_sword_1_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.footmans_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+			<Equipment
+				slot="Horse"
+				id="Item.sumpter_horse" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.stripped_leather_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item0"
+				id="Item.empire_sword_1_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.empire_dress" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_empire2_skirmisher_m"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.empire_sword_1_t2" />
+			<Equipment
+				slot="Item3"
+				id="Item.western_javelin_1_t2" />
+			<Equipment
+				slot="Item2"
+				id="Item.western_javelin_1_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.footmans_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+			<Equipment
+				slot="Horse"
+				id="Item.sumpter_horse" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.stripped_leather_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item0"
+				id="Item.empire_sword_1_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.footmans_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_empire2_skirmisher_f"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.empire_sword_1_t2" />
+			<Equipment
+				slot="Item3"
+				id="Item.western_javelin_1_t2" />
+			<Equipment
+				slot="Item2"
+				id="Item.western_javelin_1_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.footmans_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+			<Equipment
+				slot="Horse"
+				id="Item.sumpter_horse" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.stripped_leather_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item0"
+				id="Item.empire_sword_1_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.footmans_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_empire2_bard_m"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.imperial_spear_t2" />
+			<Equipment
+				slot="Item2"
+				id="Item.western_javelin_1_t2" />
+			<Equipment
+				slot="Item3"
+				id="Item.empire_sword_1_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.hemp_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+			<Equipment
+				slot="Horse"
+				id="Item.sumpter_horse" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.stripped_leather_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item0"
+				id="Item.empire_sword_1_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.hemp_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_empire2_bard_f"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.imperial_spear_t2" />
+			<Equipment
+				slot="Item2"
+				id="Item.western_javelin_1_t2" />
+			<Equipment
+				slot="Item3"
+				id="Item.empire_sword_1_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.hemp_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+			<Equipment
+				slot="Horse"
+				id="Item.sumpter_horse" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.stripped_leather_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item0"
+				id="Item.empire_sword_1_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.hemp_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<!-- This option is marked as "Ignore 6th Option" in the sandbox_equipment_sets.xml but I am including it just in case-->
+	<EquipmentRoster
+		id="player_char_creation_empire2_6_m"
+		culture="Culture.empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Item2"
+				id="Item.peasant_hammer_1_t1" />
+			<Equipment
+				slot="Item3"
+				id="Item.studded_bound_kite_shield" />
+			<Equipment
+				slot="Body"
+				id="Item.tunic_with_rolled_cloth" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+			<Equipment
+				slot="Horse"
+				id="Item.sumpter_horse" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.stripped_leather_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item0"
+				id="Item.peasant_hammer_1_t1" />
+			<Equipment
+				slot="Body"
+				id="Item.tunic_with_rolled_cloth" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_empire2_6_f"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Item2"
+				id="Item.empire_mace_1_t2" />
+			<Equipment
+				slot="Item3"
+				id="Item.studded_bound_kite_shield" />
+			<Equipment
+				slot="Body"
+				id="Item.tunic_with_rolled_cloth" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+			<Equipment
+				slot="Horse"
+				id="Item.sumpter_horse" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.stripped_leather_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item0"
+				id="Item.empire_mace_1_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.tunic_with_rolled_cloth" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<!-- Clothes for the "show equipment" button in the character editor -->
+	<EquipmentRoster
+		id="player_char_creation_show_empire2"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.basic_imperial_leather_armor" />
+			<Equipment
+				slot="Gloves"
+				id="Item.reinforced_padded_mitten" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_leather_boots" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item0"
+				id="Item.battania_mace_2_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.northern_leather_vest" />
+			<Equipment
+				slot="Leg"
+				id="Item.wrapped_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<!-- Child Equipment Templates -->
+	<!-- Noble Child -->
+	<EquipmentRoster
+		id="child_template_empire2_noble_male"
+		culture="Culture.empire2">
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Body"
+				id="Item.tunic_with_rolled_cloth" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Body"
+				id="Item.fine_town_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+		<Flags
+			IsChildEquipmentTemplate="true"
+			IsFemaleTemplate="false"
+			IsNobleTemplate="true"
+			IsNoncombatantTemplate="true" />
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_template_empire2_noble_female"
+		culture="Culture.empire2">
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Body"
+				id="Item.empire_dress" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Body"
+				id="Item.tunic_with_rolled_cloth" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Body"
+				id="Item.fine_town_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+		<Flags
+			IsChildEquipmentTemplate="true"
+			IsFemaleTemplate="true"
+			IsNobleTemplate="true"
+			IsNoncombatantTemplate="true" />
+	</EquipmentRoster>
+	<!-- Noble Teenager -->
+	<EquipmentRoster
+		id="teenager_template_empire2_noble_male"
+		culture="Culture.empire2">
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Body"
+				id="Item.tunic_with_rolled_cloth" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Body"
+				id="Item.fine_town_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+		<Flags
+			IsTeenagerEquipmentTemplate="true"
+			IsFemaleTemplate="false"
+			IsNobleTemplate="true"
+			IsNoncombatantTemplate="true" />
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="teenager_template_empire2_noble_female"
+		culture="Culture.empire2">
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Body"
+				id="Item.empire_dress" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Body"
+				id="Item.aserai_female_civil_a" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Head"
+				id="Item.head_scarf" />
+			<Equipment
+				slot="Body"
+				id="Item.vlandian_dress" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+		<Flags
+			IsTeenagerEquipmentTemplate="true"
+			IsFemaleTemplate="true"
+			IsNobleTemplate="true"
+			IsNoncombatantTemplate="true" />
+	</EquipmentRoster>
+	<!-- Townsman Child -->
+	<EquipmentRoster
+		id="child_template_empire2_townsman_male"
+		culture="Culture.empire2">
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Body"
+				id="Item.fine_town_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Body"
+				id="Item.footmans_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+		<Flags
+			IsChildEquipmentTemplate="true"
+			IsFemaleTemplate="false"
+			IsNobleTemplate="false"
+			IsCivilianTemplate="true"
+			IsNoncombatantTemplate="true" />
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_template_empire2_townsman_female"
+		culture="Culture2.empire">
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Body"
+				id="Item.fine_town_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Body"
+				id="Item.footmans_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+		<Flags
+			IsChildEquipmentTemplate="true"
+			IsFemaleTemplate="true"
+			IsNobleTemplate="false"
+			IsCivilianTemplate="true"
+			IsNoncombatantTemplate="true" />
+	</EquipmentRoster>
+	<!-- Townsman Teenager-->
+	<EquipmentRoster
+		id="teenager_template_empire2_townsman_female"
+		culture="Culture.empire2">
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Head"
+				id="Item.head_piece" />
+			<Equipment
+				slot="Body"
+				id="Item.empire_dress_b" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Body"
+				id="Item.leather_apron" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Head"
+				id="Item.head_scarf" />
+			<Equipment
+				slot="Body"
+				id="Item.vlandian_dress" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Body"
+				id="Item.aserai_female_civil_a" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+		<Flags
+			IsTeenagerEquipmentTemplate="true"
+			IsFemaleTemplate="true"
+			IsNobleTemplate="false"
+			IsCivilianTemplate="true"
+			IsNoncombatantTemplate="true" />
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="teenager_template_empire2_townsman_male"
+		culture="Culture.empire2">
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Body"
+				id="Item.leather_apron" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Body"
+				id="Item.fine_town_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Body"
+				id="Item.footmans_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Body"
+				id="Item.tunic_with_rolled_cloth" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+		</EquipmentSet>
+		<Flags
+			IsTeenagerEquipmentTemplate="true"
+			IsFemaleTemplate="false"
+			IsNobleTemplate="false"
+			IsCivilianTemplate="true"
+			IsNoncombatantTemplate="true" />
+	</EquipmentRoster>
+	<!-- Villager Child -->
+	<EquipmentRoster
+		id="child_template_empire2_villager_male"
+		culture="Culture.empire2">
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Body"
+				id="Item.bandit_leather_water_flask" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Body"
+				id="Item.footmans_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Body"
+				id="Item.peasant_costume" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+		<Flags
+			IsChildEquipmentTemplate="true"
+			IsFemaleTemplate="false"
+			IsNobleTemplate="false"
+			IsCivilianTemplate="true"
+			IsNoncombatantTemplate="true" />
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_template_empire2_villager_female"
+		culture="Culture.empire2">
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Body"
+				id="Item.bandit_leather_water_flask" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Body"
+				id="Item.footmans_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Body"
+				id="Item.peasant_costume" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+		<Flags
+			IsChildEquipmentTemplate="true"
+			IsFemaleTemplate="true"
+			IsNobleTemplate="false"
+			IsCivilianTemplate="true"
+			IsNoncombatantTemplate="true" />
+	</EquipmentRoster>
+	<!-- Villager Teenager -->
+	<EquipmentRoster
+		id="teenager_template_empire2_villager_male"
+		culture="Culture.empire2">
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Body"
+				id="Item.layered_leather_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+			<Equipment
+				slot="Gloves"
+				id="Item.buttoned_leather_bracers" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Body"
+				id="Item.legionary_mail" />
+			<Equipment
+				slot="Cape"
+				id="Item.pauldron_cape_a" />
+			<Equipment
+				slot="Leg"
+				id="Item.plated_strip_boots" />
+			<Equipment
+				slot="Gloves"
+				id="Item.reinforced_padded_mitten" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Body"
+				id="Item.buckled_wildsman_armor" />
+			<Equipment
+				slot="Leg"
+				id="Item.turndown_leather_boots" />
+			<Equipment
+				slot="Gloves"
+				id="Item.roughtied_leather_bracers" />
+		</EquipmentSet>
+		<Flags
+			IsTeenagerEquipmentTemplate="true"
+			IsFemaleTemplate="false"
+			IsNobleTemplate="false"
+			IsCivilianTemplate="true"
+			IsNoncombatantTemplate="true" />
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="teenager_template_empire2_villager_female"
+		culture="Culture.empire2">
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Head"
+				id="Item.imperial_cloth_coif" />
+			<Equipment
+				slot="Body"
+				id="Item.long_woolen_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Head"
+				id="Item.head_scarf" />
+			<Equipment
+				slot="Body"
+				id="Item.vlandian_dress" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Body"
+				id="Item.aserai_female_civil_a" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+		<Flags
+			IsTeenagerEquipmentTemplate="true"
+			IsFemaleTemplate="true"
+			IsNobleTemplate="false"
+			IsCivilianTemplate="true"
+			IsNoncombatantTemplate="true" />
+	</EquipmentRoster>
+	<!-- Siblings -->
+	<EquipmentRoster
+		id="brother_char_creation_empire2"
+		culture="Culture.empire2">
+		<EquipmentSet>
+			<Equipment
+				slot="Item2"
+				id="Item.studded_round_shield" />
+			<Equipment
+				slot="Item3"
+				id="Item.battania_mace_2_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.long_hemp_tunic" />
+			<Equipment
+				slot="Cape"
+				id="Item.scarf" />
+			<Equipment
+				slot="Leg"
+				id="Item.wrapped_leather_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.empire_horse" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.light_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item0"
+				id="Item.hooked_cleaver" />
+			<Equipment
+				slot="Body"
+				id="Item.long_hemp_tunic" />
+			<Equipment
+				slot="Cape"
+				id="Item.scarf" />
+			<Equipment
+				slot="Leg"
+				id="Item.wrapped_leather_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.empire_horse" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.light_harness" />
+		</EquipmentSet>
+	</EquipmentRoster>
+</EquipmentRosters>
