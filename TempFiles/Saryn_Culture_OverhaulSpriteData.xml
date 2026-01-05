@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- Note: We don't need to add sprite data for the cultures from vanilla that we are only tweaking, as the game will automatically use the vanilla ones based on their ids -->
+<!-- Also, I noted that we only need to seem to define the characterCreation\Culture\{cultureId} but here because it's NOT in the GUI\Brushes\CharacterCreation.xml file -->
+<!-- In that file otherwise we can tell the brush to use the vanilla sprites that are already defined. Some automagic is certainly happening here that I don't fully understand, but putting these definitions makes it work as intended. -->
+<SpriteData>
+	<SpriteCategories>
+		<SpriteCategory>
+			<Name>ui_charactercreation_vanilla</Name>
+			<AlwaysLoad />
+			<SpriteSheetCount>1</SpriteSheetCount>
+			<SpriteSheetSize ID="1" Width="4096" Height="4096" />
+		</SpriteCategory>
+	</SpriteCategories>
+	<spriteParts>
+		<SpritePart>
+			<SheetID>1</SheetID>
+			<Name>CharacterCreation\Culture\empire2</Name>
+			<Width>541</Width>
+			<Height>94</Height>
+			<SheetX>553</SheetX>
+			<SheetY>3540</SheetY>
+			<CategoryName>ui_charactercreation_vanilla</CategoryName>
+		</SpritePart>
+		<SpritePart>
+			<SheetID>2</SheetID>
+			<Name>CharacterCreation\Culture\empire2_1</Name>
+			<Width>952</Width>
+			<Height>876</Height>
+			<SheetX>4</SheetX>
+			<SheetY>2656</SheetY>
+			<CategoryName>ui_charactercreation_vanilla</CategoryName>
+		</SpritePart>
+		<SpritePart>
+			<SheetID>2</SheetID>
+			<Name>CharacterCreation\Culture\empire2_2</Name>
+			<Width>952</Width>
+			<Height>876</Height>
+			<SheetX>964</SheetX>
+			<SheetY>4</SheetY>
+			<CategoryName>ui_charactercreation_vanilla</CategoryName>
+		</SpritePart>
+		<SpritePart>
+			<SheetID>2</SheetID>
+			<Name>CharacterCreation\Culture\empire2_3</Name>
+			<Width>952</Width>
+			<Height>876</Height>
+			<SheetX>4</SheetX>
+			<SheetY>4</SheetY>
+			<CategoryName>ui_charactercreation_vanilla</CategoryName>
+		</SpritePart>
+		<SpritePart>
+			<SheetID>1</SheetID>
+			<Name>CharacterCreation\Culture\empire2_4</Name>
+			<Width>952</Width>
+			<Height>876</Height>
+			<SheetX>4</SheetX>
+			<SheetY>4</SheetY>
+			<CategoryName>ui_charactercreation_vanilla</CategoryName>
+		</SpritePart>
+	</spriteParts>
+	<Sprites>
+		<GenericSprite>
+			<Name>CharacterCreation\Culture\empire2</Name>
+			<SpritePartName>CharacterCreation\Culture\empire2</SpritePartName>
+		</GenericSprite>
+		<GenericSprite>
+			<Name>CharacterCreation\Culture\empire2_1</Name>
+			<SpritePartName>CharacterCreation\Culture\empire2_1</SpritePartName>
+		</GenericSprite>
+		<GenericSprite>
+			<Name>CharacterCreation\Culture\empire2_2</Name>
+			<SpritePartName>CharacterCreation\Culture\empire2_2</SpritePartName>
+		</GenericSprite>
+		<GenericSprite>
+			<Name>CharacterCreation\Culture\empire2_3</Name>
+			<SpritePartName>CharacterCreation\Culture\empire2_3</SpritePartName>
+		</GenericSprite>
+		<GenericSprite>
+			<Name>CharacterCreation\Culture\empire2_4</Name>
+			<SpritePartName>CharacterCreation\Culture\empire2_4</SpritePartName>
+		</GenericSprite>
+	</Sprites>
+</SpriteData>

@@ -20,11 +20,6 @@ namespace Saryn_Culture_Overhaul
             InformationManager.DisplayMessage(new InformationMessage("SortCultureList called"));
             listToWorkOn.Sort(new NameTextComparer());
 
-            SpriteCategory spLoadingCategory = UIResourceManager.SpriteData.SpriteCategories["ui_charactercreation_vanilla"];
-            foreach (SpritePart spritePart in spLoadingCategory.SpriteParts)
-            {
-                InformationManager.DisplayMessage(new InformationMessage(spritePart.Name));
-            }
             return false;
         }
 

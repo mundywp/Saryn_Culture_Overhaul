@@ -37,7 +37,36 @@
   </SubModules>
 	<Xmls>
 		<!-- 1) Edits to the baseline cultures -->
-		
+		<!-- Changes the information of baseline cultures using XSLT, should be fairly stable with future updates -->
+		<XmlNode>
+			<XmlName id="SPCultures" path="XSLT/VanillaCultures/VanillaCulture_Edits" />
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+				<GameType value="Sandbox"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="GameText" path="VanillaCultures/Strings/VanillaCulture_Strings" />
+		</XmlNode>
+		<XmlNode>
+			<!-- NPC Troops -->
+			<XmlName id="NPCCharacters" path="VanillaCultures/NPCCharacters/Empire_Troops"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+				<GameType value="Sandbox"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<!-- NPC Troops -->
+			<XmlName id="NPCCharacters" path="VanillaCultures/NPCCharacters/Vanilla_ObsoleteTroops"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+				<GameType value="Sandbox"/>
+			</IncludedGameTypes>
+		</XmlNode>
 		<!-- 2) Defining New Cultures -->
 			<!-- 2.1) New Aserai Cultures -->
 			
@@ -54,6 +83,7 @@
 							<GameType value="Sandbox"/>
 						</IncludedGameTypes>
 					</XmlNode>
+	
 					<!-- Culture Definition for War Sails -->
 					<!-- War Sails DLC uses XSLT to transform the baseline culture entry without having to retype everything out. I'm applying the same method. -->
 					<XmlNode>

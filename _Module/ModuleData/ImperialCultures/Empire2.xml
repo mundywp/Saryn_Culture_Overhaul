@@ -7,7 +7,7 @@
 		color="0xff793191"
 		color2="0xffFCDE90"
 		elite_basic_troop="NPCCharacter.imperial_vigla_recruit"
-		basic_troop="NPCCharacter.imperial_recruit"
+		basic_troop="NPCCharacter.calradic_recruit"
 		melee_militia_troop="NPCCharacter.imperial_militia_spearman"
 		ranged_militia_troop="NPCCharacter.imperial_militia_archer"
 		melee_elite_militia_troop="NPCCharacter.imperial_militia_veteran_spearman"

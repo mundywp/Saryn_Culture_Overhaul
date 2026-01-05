@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<strings>
+	<string
+		id="str_culture_rich_name.empire"
+		text="Calradic" />
+	<string
+		id="str_culture_rich_name.vlandia"
+		text="Swadian" />
+	<string
+		id="str_culture_rich_name.aserai"
+		text="Aserai" />
+	<string
+		id="str_culture_rich_name.sturgia"
+		text="Sturgian" />
+	<string
+		id="str_culture_rich_name.battania"
+		text="Battanian" />
+	<string
+		id="str_culture_rich_name.khuzait"
+		text="Khuzait" />
+	<string
+		id="str_culture_rich_name.nord"
+		text="Nord" />
+</strings>
